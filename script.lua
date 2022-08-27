@@ -8,7 +8,3 @@ local Section = Tab:NewSection("Walk Speed")
 Section:NewSlider("SliderText", "SliderInfo", 500, 0, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
-
-Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
-	print("You just clicked the bind")
-end)
